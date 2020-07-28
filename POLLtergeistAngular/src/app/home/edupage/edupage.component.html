@@ -1,0 +1,18 @@
+
+    <head>
+        <title>education package</title>
+    </head>
+
+    <body>
+        <div class = "heading">{{title}}
+        <div *ngIf = "imagePresent">
+            <img class = "image-edu" [src] = "imageLocation"
+            alt="Book">
+         </div>
+        </div> 
+
+        <p>
+       {{body}}
+        </p>
+    </body>
+
